@@ -1,0 +1,6 @@
+package p4_practice;
+
+public class Person {
+	private  String name;
+	private Date bdate;   
+}

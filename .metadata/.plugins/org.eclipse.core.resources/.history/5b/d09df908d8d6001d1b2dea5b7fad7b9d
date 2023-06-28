@@ -1,0 +1,8 @@
+package p4_practice;
+public class Doctor {
+	private String degree;
+	private String reg_no;
+	private String salary;
+	private Address address;
+	
+}

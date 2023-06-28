@@ -1,0 +1,27 @@
+package countCharacter;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class Demo {
+	public static void main(String[] args) {
+		String a="coccacola";
+		char ch;
+		Map<Character, Integer> m=new HashMap<>();
+		for(int i=0;i<a.length();i++)
+		{
+			ch=a.charAt(i);
+			int count=0;
+			for(int j=i;j<a.length();j++)
+			{
+				if(ch==a.charAt(j));
+					count++;
+			}
+			m.put(ch, count);
+		}
+		
+		Set<Map.Entry<Character, Integer>> s=m.entrySet();
+		for(Map.entry(Character, Integer))
+	}
+}

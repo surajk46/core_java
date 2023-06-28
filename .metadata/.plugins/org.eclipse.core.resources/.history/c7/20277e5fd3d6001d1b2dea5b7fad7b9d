@@ -1,0 +1,10 @@
+package p4_practice;
+
+public class Date {
+	private int dd;
+	private int mm;
+	private int yy;
+	
+	public date
+	
+}

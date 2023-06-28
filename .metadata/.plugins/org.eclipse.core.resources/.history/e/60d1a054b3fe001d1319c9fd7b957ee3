@@ -1,0 +1,17 @@
+package priorityQueue;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class Demo {
+	public static void main(String[] args) {
+		Queue <String> queue=new PriorityQueue<>();
+		queue.add("hii");
+		queue.add("my");
+		queue.add("Name");
+		queue.add("is");
+		queue.add("xxxxxxxxxxxxx");
+		queue.add("hii");
+		queue.add("hii");
+	}
+}

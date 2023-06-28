@@ -1,0 +1,22 @@
+package p4_practice;
+public class Doctor {
+	private String degree;
+	private String reg_no;
+	private String salary;
+	private Address address;
+	
+	public Doctor()
+	{
+		degree="";
+		reg_no="";
+		salary="";
+		address=new Address();
+	}
+	public Doctor(String degree,String reg_no,String salary,String area,String city,String pincode)
+	{
+		this.degree=degree;
+		reg_no=reg_no;
+		salary=salary;
+		address=new Address(area,city,pincode);
+	}
+}

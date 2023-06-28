@@ -1,0 +1,35 @@
+package priorityQueue;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class Demo {
+	public static void main(String[] args) {
+		Queue <String> q=new PriorityQueue<>(new Comparator <String>(){
+
+			@Override
+			public int compare(String o1, String o2) {
+			return o1.compareToIgnoreCase(o2);
+			}
+			
+		});
+		q.add("hii");
+		q.add("my");
+		q.add("Name");
+		q.add("is");
+		q.add("xxxxxxxxxxxxx");
+		q.add("hii");
+		q.add("hii");
+		
+		for(String s:q)
+			System.out.println(s);
+		
+		q.remove();
+		System.out.println();
+		System.out.println("After Deleting");
+		
+		for(String s:q)
+			System.out.println(s);
+	}
+}
